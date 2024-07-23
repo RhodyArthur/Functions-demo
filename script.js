@@ -12,6 +12,8 @@ const addNumbers = (a, b)=>{
 const reverseString = (text)=>{
     return text.split('').reverse().join('')
 }
+
+// export
 module.exports = {
     greetUser,
     addNumbers,
